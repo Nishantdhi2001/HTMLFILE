@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    #background{
+        background-color: rgb(228, 119, 185);
+    
+    }
+
+    table,tr,td,th{
+        border: solid 4px black;
+    }
+    *{
+        padding: 10px;
+    }
+  
+</style>
+<body>
+    <div id="background">
+   
+        <h1><strong>Registration Form</strong></h1>
+        <div>
+       <b>First Name:</b><input type="text" name="myfirst">
+        </div>
+        <div>
+            <br>
+       <b>Last Name:</b> <input type="text" name="mylast">
+        </div>
+        <div>
+            <br>
+           <b> Gender</b>:Male<input type="radio" name="mygender">Female<input type="radio" name="mygender">Other<input type="radio" name="mygender>"
+        </div>
+       <div>
+        <br>
+        <b>Course:</b><select name="Course" id="courses">
+            <option value="select">select</option>
+        <option value="Html">Html</option>
+        <option value="java">Java</option>
+        <option value="javascript">Java script</option>
+    </select>
+       </div>
+       <div>
+        <br>
+       <b> Email:</b><input type="email" name="myemail">
+       </div>
+       <div>
+        <br>
+       <b> City:</b><select name="city" id="city">
+        <option value="select">select</option>
+        <option value="Nadaun">Nadaun</option>
+        <option value="Hamirpur">Hamirpur</option>
+        <option value="kangra">Kangra</option>   
+    </select>
+       </div>
+       <div>
+        <br>
+        <b>D.O.B</b><input type="date">
+       </div>
+       <div>
+        <br>
+        <strong>Qualification</strong>10th<input type="checkbox" name="qualification"> 12th<input type="checkbox" name="qualification"> UG<input type="checkbox" name="qualification"> PG<input type="checkbox" name="qualification">
+       </div>
+       <br>
+       <h2><b>Education Qualification</b></h2>
+       <table>
+        <tbody>
+            <tr>
+                <th>Qualification</th>
+                <th>Board</th>
+                <th>University</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+                
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td ><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+            </tr>
+            <tr>
+                <td>UG</td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+            </tr>
+            <tr>
+                <td>PG</td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+                <td><input type="text" name="mytext" minlength="4" maxlength="8"></td>
+            </tr>
+        </tbody>
+           
+        </tbody>
+       </table>
+       <div>
+        <br>
+        <button type="submit" style="background-color: beige;"> SUBMIT</button> <button type="reset" style="background-color: beige;">RESET</button>
+       </div>
+    </div>
+</body>
+</html>
